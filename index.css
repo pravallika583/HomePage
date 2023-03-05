@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box; 
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.background-image-container{
+   background-image: url("images/bg.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height:400px;
+   /* background-color:greenyellow; */
+}
+.header{
+    width:90%;
+    margin:auto;
+    padding:15px;
+    display:flex;
+    justify-content: flex-end;
+}
+.login{
+    color:white;
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.account-btn{
+    background-color: transparent;
+    color:white;
+    border-color:white;
+    border-width:2px;
+    border-style: solid;
+    padding:5px;
+}
+.search-section{
+    width:90%;
+    margin:auto;
+    height:340px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+.logo{
+    background-color:white;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: Arial, Poppins, SemiBold;
+}
+.location-input{
+   height:50px;
+   outline:0;
+   width:240px;
+}
+.restaurants-input{
+    height:50px;
+    outline:0;
+    width:470px;
+    padding-left: 40px;
+ }
+ i{
+     position:absolute;
+    
+}
+.search-icon{
+    padding: 17px;
+    min-width: 40px;
+    
+}
+ .search-box{
+     width:90%;
+     margin:auto;
+     /* background-color:tomato; */
+     background-color:#FBFBFB;
+     font-family:Arial, Helvetica, sans-serif;
+     padding:25px;
+ }
+ .heading{
+     color:#192F60;
+     font-size:26px;
+     font-weight: bold;
+ }
+ .desc{
+     color:#8C96AB;
+     font-size:20px;
+     font-weight:500;
+ }
+ .quick-container{
+     display:flex;
+     flex-wrap: wrap;
+ }
+ .card{
+     margin-right:15px;
+     margin-bottom:20px;
+     border-radius:9px;
+     background-color: white;
+     width:350px;
+     height:140px;
+     cursor: pointer;
+     /* box-shadow: 3px 3px 4px rgb(214, 201, 201); */
+ }
+ 
+ .image{
+     width:140px;
+     height:140px;
+     margin-right:10px;
+ }
+ .sub-heading{
+     color:#192F60;
+     size:18px;
+     font-weight: bold;
+ }
+ .text{
+     color:#8C96AB;
+     size:14px;
+     font-weight: bold;
+ }
+
+ @media  screen and (max-width:576px) {
+    .location-input{
+        width:240px;
+     }
+     .restaurants-input{
+         width:240px;
+         padding-left: 0px;
+      }
+      .card{
+          margin-right: 0px;
+      }
+     
+ }
